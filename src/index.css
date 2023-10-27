@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Roboto+Condensed&family=Tilt+Neon&family=Work+Sans&display=swap');
+*{
+    font-family: 'Tilt Neon', sans-serif;
+}
+a.active{
+    border-bottom: 1px solid black;
+}
+.btn-get-started{
+    background-color: rgb(96, 203, 245);
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+}
+.btn-explore{
+    background-color: orangered;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+}
+.btn-get-started:hover{
+    background-color: aqua;
+}
+.brand-name{
+    color: orangered;
+}
+#header{
+    height: 90vh;
+}
+#header .animated{
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+@-webkit-keyframes up-down {
+    0%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}
+@keyframes up-down {
+    0%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}
+.card-title{
+    text-transform: uppercase;
+}
+.form{
+    border-radius: 10px;
+    box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+    padding: 30px;
+}
